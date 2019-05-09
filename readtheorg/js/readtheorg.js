@@ -83,3 +83,9 @@ window.SphinxRtdTheme = (function (jquery) {
         StickyNav : stickyNav
     };
 }($));
+
+// Add spaces for enum/itemize when it have paragraphs inside
+$( document ).ready(function() {
+    $('ol:has(li:has(p)) li').css("margin-top", "24px");
+    $('ul:has(li:has(p)) li').css("margin-top", "24px");
+})
