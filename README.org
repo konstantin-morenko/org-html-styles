@@ -1,0 +1,9 @@
+#+TITLE: Styles for exporting Org to HTML
+#+AUTHOR: Konstantin Morenko
+#+EMAIL: me@konstantin-morenko.ru
+
+It is the for of the repository
+https://github.com/fniessen/org-html-themes.
+
+I left just one theme and fixed it a bit for more smooth styling
+according to my needs.
